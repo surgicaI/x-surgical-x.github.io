@@ -1,0 +1,137 @@
+@keyframes sheen {
+  0% {
+    color: #003466; }
+  25% {
+    color: #004e99; }
+  50% {
+    color: #005bb3; }
+  75% {
+    color: #004e99; }
+  100% {
+    color: #003466; } }
+@keyframes shake {
+  0%, 50% {
+    transform: rotate(0deg); }
+  12.5% {
+    transform: rotate(-2.5deg); }
+  37.5% {
+    transform: rotate(2.5deg); } }
+@keyframes vibes {
+  0% {
+    box-shadow: 0 0 0 0 #003466; }
+  5% {
+    box-shadow: 0 0 0 6px rgba(0, 52, 102, 0.9); }
+  10% {
+    box-shadow: 0 0 0 12px rgba(0, 52, 102, 0.8); }
+  15% {
+    box-shadow: 0 0 0 18px rgba(0, 52, 102, 0.7); }
+  20% {
+    box-shadow: 0 0 0 24px rgba(0, 52, 102, 0.6); }
+  25% {
+    box-shadow: 0 0 0 30px rgba(0, 52, 102, 0.5); }
+  30% {
+    box-shadow: 0 0 0 36px rgba(0, 52, 102, 0.4); }
+  35% {
+    box-shadow: 0 0 0 42px rgba(0, 52, 102, 0.3); }
+  40% {
+    box-shadow: 0 0 0 48px rgba(0, 52, 102, 0.2); }
+  45% {
+    box-shadow: 0 0 0 54px rgba(0, 52, 102, 0.1); }
+  50% {
+    box-shadow: 0 0 0 60px rgba(0, 52, 102, 0); }
+  90% {
+    box-shadow: 0 0 0 0px rgba(0, 52, 102, 0); } }
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+.nav-bar {
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  top: 2.5%;
+  padding: 0 2%; }
+  .nav-bar a {
+    width: 10%;
+    font-size: 20px;
+    text-decoration: none;
+    color: #001f3d;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 1.5%;
+    border: 2px solid #001f3d;
+    border-radius: 10px; }
+    .nav-bar a:hover {
+      background: #003466;
+      border: 2px solid #003466;
+      color: #e1dedf; }
+
+.cover {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+  background: url("../images/background-1.jpg") no-repeat center;
+  background-size: cover; }
+  .cover .hello {
+    font-family: 'Tangerine', cursive;
+    font-size: 750%;
+    font-weight: bold;
+    position: absolute;
+    opacity: 0;
+    text-align: right;
+    color: #003466;
+    padding: 0;
+    margin: 0;
+    top: 35%;
+    left: 60%; }
+  .cover #name {
+    font-family: 'Tangerine', cursive;
+    margin: 0;
+    font-size: 700%;
+    font-weight: bold;
+    color: #003466;
+    position: absolute;
+    left: 40%;
+    width: 60%; }
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+
+.scroll {
+  z-index: 3;
+  position: absolute;
+  bottom: 6%;
+  left: 48%;
+  border: 3px solid #003466;
+  border-radius: 100%;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200%;
+  animation-name: vibes;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 8s; }
+  .scroll a {
+    display: flex;
+    align-items: bottom; }
+
+.cover-2 {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+  background: radial-gradient(#e1dedf, #B1A8AB); }
+
+/*# sourceMappingURL=styles.css.map */
