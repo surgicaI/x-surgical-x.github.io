@@ -1,6 +1,3 @@
-@font-face {
-  font-family: calluna;
-  src: url(calluna.otf); }
 @keyframes sheen {
   0% {
     color: #003466; }
@@ -44,6 +41,49 @@
     box-shadow: 0 0 0 60px rgba(0, 52, 102, 0); }
   90% {
     box-shadow: 0 0 0 0px rgba(0, 52, 102, 0); } }
+@keyframes wobble {
+  0% {
+    background: linear-gradient(0deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); }
+  5% {
+    background: linear-gradient(9deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); }
+  10% {
+    background: linear-gradient(18deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); }
+  15% {
+    background: linear-gradient(27deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); }
+  20% {
+    background: linear-gradient(36deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); }
+  25% {
+    background: linear-gradient(45deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); }
+  30% {
+    background: linear-gradient(54deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); }
+  35% {
+    background: linear-gradient(63deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); }
+  40% {
+    background: linear-gradient(72deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); }
+  45% {
+    background: linear-gradient(81deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); }
+  50% {
+    background: linear-gradient(90deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); }
+  55% {
+    background: linear-gradient(99deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); }
+  60% {
+    background: linear-gradient(108deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); }
+  65% {
+    background: linear-gradient(117deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); }
+  70% {
+    background: linear-gradient(126deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); }
+  75% {
+    background: linear-gradient(135deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); }
+  80% {
+    background: linear-gradient(144deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); }
+  85% {
+    background: linear-gradient(153deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); }
+  90% {
+    background: linear-gradient(162deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); }
+  95% {
+    background: linear-gradient(171deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); }
+  100% {
+    background: linear-gradient(180deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); } }
 html, body {
   margin: 0;
   padding: 0;
@@ -139,7 +179,10 @@ html, body {
   position: relative; }
 
 .contact {
-  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); }
+  animation-name: wobble;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; }
   .contact .contact-title {
     height: 20%;
     margin: 0;
@@ -148,13 +191,15 @@ html, body {
       margin: 0;
       padding: 2% 0 0 0;
       text-align: center;
-      font-family: calluna;
-      font-size: 2.5em; }
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 2.5em;
+      user-select: none; }
   .contact .contact-banner {
     padding: 1% 0;
     text-align: center;
-    font-family: calluna;
-    font-size: 2em; }
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    user-select: none; }
   .contact .form-container {
     background: #ffffff;
     padding: 2.5% 0; }
@@ -170,6 +215,8 @@ html, body {
       color: #ffffff;
       border: 0;
       border-radius: 0; }
+    .contact .input-group textarea {
+      resize: none; }
   .contact .btn {
     width: 100%;
     background: #1fc8db;
@@ -183,10 +230,30 @@ html, body {
   position: absolute;
   bottom: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   height: 20%;
   width: 100%;
-  font-family: calluna;
+  font-family: 'Ubuntu', sans-serif;
   color: #ffffff; }
+  .footer-container .footer-content {
+    width: 50%;
+    padding: 0 5%; }
+  .footer-container .social-links {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    .footer-container .social-links a {
+      padding: 5%;
+      text-decoration: none;
+      margin: 0; }
+      .footer-container .social-links a:hover svg path {
+        fill: #ffffff !important; }
+
+.social-icon svg {
+  height: 40px; }
+  .social-icon svg path {
+    fill: #000 !important; }
 
 /*# sourceMappingURL=styles.css.map */

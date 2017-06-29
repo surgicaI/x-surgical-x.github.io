@@ -38,3 +38,9 @@
     animation-iteration-count: infinite;
     animation-play-state: paused;
 }
+@mixin contact-background-animation{
+    animation-name: wobble;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

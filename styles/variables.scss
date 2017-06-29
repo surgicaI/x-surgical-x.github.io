@@ -10,9 +10,33 @@ $animations-delay : 6.5s;
 $contact-page-foreground: #ffffff;
 $contact-page-background: #1fc8db;
 $form-container-background: #ffffff;
-$footer-background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+$social-links-color: #000;
+$social-links-color-hover: #ffffff;
 
-@font-face {
-    font-family: calluna;
-    src: url(calluna.otf);
-}
+// $footer-background: linear-gradient(#0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+$footer-background-1: linear-gradient(0deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%);
+$footer-background-2: linear-gradient(9deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%);
+$footer-background-3: linear-gradient(18deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%);
+$footer-background-4: linear-gradient(27deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%);
+$footer-background-5: linear-gradient(36deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%);
+$footer-background-6: linear-gradient(45deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%);
+$footer-background-7: linear-gradient(54deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%);
+$footer-background-8: linear-gradient(63deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%);
+$footer-background-9: linear-gradient(72deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%);
+$footer-background-10: linear-gradient(81deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%);
+$footer-background-11: linear-gradient(90deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%);
+$footer-background-12: linear-gradient(99deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%);
+$footer-background-13: linear-gradient(108deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%);
+$footer-background-14: linear-gradient(117deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%);
+$footer-background-15: linear-gradient(126deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%);
+$footer-background-16: linear-gradient(135deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%);
+$footer-background-17: linear-gradient(144deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%);
+$footer-background-18: linear-gradient(153deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%);
+$footer-background-19: linear-gradient(162deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%);
+$footer-background-20: linear-gradient(171deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%);
+$footer-background-21: linear-gradient(180deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%);
+
+// @font-face {
+//     font-family: calluna;
+//     src: url(calluna.otf);
+// }

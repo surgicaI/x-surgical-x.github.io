@@ -24,3 +24,26 @@
     50%   {box-shadow:0 0 0 60px transparentize($primary-color, 1);}
     90%   {box-shadow:0 0 0 0px transparentize($primary-color, 1);}
 }
+@keyframes wobble {
+    0% {background: $footer-background-1;}
+    5% {background: $footer-background-2;}
+    10% {background: $footer-background-3;}
+    15% {background: $footer-background-4;}
+    20% {background: $footer-background-5;}
+    25% {background: $footer-background-6;}
+    30% {background: $footer-background-7;}
+    35% {background: $footer-background-8;}
+    40% {background: $footer-background-9;}
+    45% {background: $footer-background-10;}
+    50% {background: $footer-background-11;}
+    55% {background: $footer-background-12;}
+    60% {background: $footer-background-13;}
+    65% {background: $footer-background-14;}
+    70% {background: $footer-background-15;}
+    75% {background: $footer-background-16;}
+    80% {background: $footer-background-17;}
+    85% {background: $footer-background-18;}
+    90% {background: $footer-background-19;}
+    95% {background: $footer-background-20;}
+    100% {background: $footer-background-21;}
+}
