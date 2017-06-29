@@ -1,0 +1,26 @@
+@keyframes sheen {
+    0%   {color:$primary-color;}
+    25%   {color:$complement-color;}
+    50%  {color:$secondary-color;}
+    75%   {color:$complement-color;}
+    100% {color:$primary-color;}
+}
+@keyframes shake {
+    0%, 50% {transform: rotate(0deg);}
+    12.5% {transform: rotate(-2.5deg);}
+    37.5% {transform: rotate(2.5deg);}
+}
+@keyframes vibes {
+    0%    {box-shadow:0 0 0 0 transparentize($primary-color, 0);}
+    5%    {box-shadow:0 0 0 6px transparentize($primary-color, 0.1);}
+    10%   {box-shadow:0 0 0 12px transparentize($primary-color, 0.2);}
+    15%   {box-shadow:0 0 0 18px transparentize($primary-color, 0.3);}
+    20%   {box-shadow:0 0 0 24px transparentize($primary-color, 0.4);}
+    25%   {box-shadow:0 0 0 30px transparentize($primary-color, 0.5);}
+    30%   {box-shadow:0 0 0 36px transparentize($primary-color, 0.6)}
+    35%   {box-shadow:0 0 0 42px transparentize($primary-color, 0.7);}
+    40%   {box-shadow:0 0 0 48px transparentize($primary-color, 0.8);}
+    45%   {box-shadow:0 0 0 54px transparentize($primary-color, 0.9);}
+    50%   {box-shadow:0 0 0 60px transparentize($primary-color, 1);}
+    90%   {box-shadow:0 0 0 0px transparentize($primary-color, 1);}
+}
