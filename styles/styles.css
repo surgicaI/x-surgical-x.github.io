@@ -47,13 +47,12 @@ html, body {
   height: 100%; }
 
 .nav-bar {
-  z-index: 2;
-  position: absolute;
+  z-index: 3;
+  position: fixed;
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  top: 2.5%;
-  padding: 0 2%;
+  padding: 2.5% 2% 2.5% 2%;
   opacity: 0; }
   .nav-bar a {
     width: 10%;
@@ -125,11 +124,8 @@ html, body {
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-play-state: paused; }
-  .scroll a {
-    display: flex;
-    align-items: bottom; }
 
-.cover-2 {
+.page {
   height: 100%;
   margin: 0;
   padding: 0;

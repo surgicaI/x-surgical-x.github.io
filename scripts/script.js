@@ -2,6 +2,7 @@ $(document).ready(function() {
     $('<img/>').attr('src', 'images/background-1.jpg').on('load', function() {
         initLoadAnimations();
     });
+    loadSmoothScroll();
 });
 
 $(window).resize(function(event) {
@@ -47,4 +48,27 @@ function initLoadAnimations(){
     });
     $(".cover").animate({opacity:1}, 500);
     $(".nav-bar").animate({opacity:1}, 500);
+}
+
+function loadSmoothScroll(){
+    $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 500, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
 }
