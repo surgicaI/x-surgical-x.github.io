@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('<img/>').attr('src', '../images/background-1.jpg').on('load', function() {
+    $('<img/>').attr('src', 'images/background-1.jpg').on('load', function() {
         initLoadAnimations();
     });
 });
