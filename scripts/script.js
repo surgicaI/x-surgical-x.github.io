@@ -3,6 +3,7 @@ $(document).ready(function() {
         initLoadAnimations();
     });
     loadSmoothScroll();
+    addYear();
 });
 
 $(window).resize(function(event) {
@@ -71,6 +72,10 @@ function loadSmoothScroll(){
       });
     } // End if
   });
+}
+function addYear(){
+    year = new Date().getFullYear();
+    $(".copyright-notice").html("&copy; "+ year +". All Rights Reserved");
 }
 
 // $(function(){

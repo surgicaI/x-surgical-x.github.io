@@ -244,16 +244,27 @@ html, body {
     display: flex;
     justify-content: flex-end;
     align-items: center; }
+    .footer-container .social-links span {
+      padding: 0 5%;
+      color: #000;
+      font-size: 2em; }
     .footer-container .social-links a {
       padding: 5%;
       text-decoration: none;
       margin: 0; }
       .footer-container .social-links a:hover svg path {
         fill: #ffffff !important; }
-
-.social-icon svg {
-  height: 40px; }
-  .social-icon svg path {
-    fill: #000 !important; }
+  .footer-container .social-icon svg {
+    height: 40px; }
+    .footer-container .social-icon svg path {
+      fill: #000 !important; }
+  .footer-container .copyright-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center; }
+  .footer-container .copyright-notice {
+    font-size: 1.3em;
+    padding: 0 1%; }
 
 /*# sourceMappingURL=styles.css.map */

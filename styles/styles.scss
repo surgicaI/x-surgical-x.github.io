@@ -160,25 +160,41 @@ html, body {
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        span{
+            padding:0 5%;
+            color: $social-links-color;
+            font-size: 2em;
+        }
         a{
             padding: 5%;
             text-decoration: none;
             margin: 0;
             &:hover{
-            svg {
-                path{
-                    fill: $social-links-color-hover !important;
+                svg {
+                    path{
+                        fill: $social-links-color-hover !important;
+                    }
                 }
             }
-    }
         }
     }
-}
-.social-icon {
-    svg {
-        height: 40px;
-        path{
-            fill: $social-links-color !important;
+    .social-icon {
+        svg {
+            height: 40px;
+            path{
+                fill: $social-links-color !important;
+            }
         }
     }
+    .copyright-container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .copyright-notice{
+        font-size: 1.3em;
+        padding: 0 1%;
+    }
 }
+
