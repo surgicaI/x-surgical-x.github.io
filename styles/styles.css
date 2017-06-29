@@ -53,7 +53,8 @@ html, body {
   display: flex;
   justify-content: flex-end;
   top: 2.5%;
-  padding: 0 2%; }
+  padding: 0 2%;
+  opacity: 0; }
   .nav-bar a {
     width: 10%;
     font-size: 20px;
@@ -76,10 +77,11 @@ html, body {
   padding: 0;
   z-index: -1;
   background: url("../images/background-1.jpg") no-repeat center;
-  background-size: cover; }
+  background-size: cover;
+  opacity: 0; }
   .cover .hello {
     font-family: 'Tangerine', cursive;
-    font-size: 750%;
+    font-size: 7em;
     font-weight: bold;
     position: absolute;
     opacity: 0;
@@ -92,7 +94,7 @@ html, body {
   .cover #name {
     font-family: 'Tangerine', cursive;
     margin: 0;
-    font-size: 700%;
+    font-size: 6.5em;
     font-weight: bold;
     color: #003466;
     position: absolute;
@@ -122,7 +124,7 @@ html, body {
   animation-name: vibes;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  animation-delay: 8s; }
+  animation-play-state: paused; }
   .scroll a {
     display: flex;
     align-items: bottom; }
