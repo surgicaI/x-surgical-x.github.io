@@ -2,6 +2,9 @@ $(document).ready(function() {
     $('<img/>').attr('src', 'images/background-1.jpg').on('load', function() {
         initLoadAnimations();
     });
+    $('<img/>').attr('src', 'images/background-2.jpg').on('load', function() {
+        initLoadAnimationsPage2();
+    });
     loadSmoothScroll();
     addYear();
 });
@@ -51,6 +54,15 @@ function initLoadAnimations(){
     $(".nav-bar").animate({opacity:1}, 500);
 }
 
+function initLoadAnimationsPage2(){
+
+    $(".cover-2").animate({
+        opacity: 1},
+        500, function() {
+        /* stuff to do after animation is complete */
+    });
+}
+
 function loadSmoothScroll(){
     $("a").on('click', function(event) {
 
@@ -73,6 +85,7 @@ function loadSmoothScroll(){
     } // End if
   });
 }
+
 function addYear(){
     year = new Date().getFullYear();
     $(".copyright-notice").html("&copy; "+ year +". All Rights Reserved");
@@ -113,3 +126,4 @@ function addYear(){
     
 //     });
 // });
+

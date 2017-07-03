@@ -76,10 +76,15 @@ html, body {
 .scroll{
     @include scrolling;
 }
+.cover-2{
+    @include banner;
+    background: url('../images/background-2.jpg') no-repeat center;
+    background-size: cover;
+    position: relative;
+    opacity: 0;
+}
 .page{
     @include banner;
-    background: url('../images/background-3.jpg') no-repeat center;
-    background-size: cover;
     position: relative;
     }
 .contact{
