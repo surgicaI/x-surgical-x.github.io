@@ -246,8 +246,9 @@ html, body {
     align-items: center; }
     .footer-container .social-links span {
       padding: 0 5%;
-      color: #000;
-      font-size: 2em; }
+      color: #113a60;
+      font-size: 2em;
+      user-select: none; }
     .footer-container .social-links a {
       padding: 5%;
       text-decoration: none;
@@ -257,7 +258,7 @@ html, body {
   .footer-container .social-icon svg {
     height: 40px; }
     .footer-container .social-icon svg path {
-      fill: #000 !important; }
+      fill: #113a60 !important; }
   .footer-container .copyright-container {
     height: 100%;
     width: 100%;
@@ -265,6 +266,7 @@ html, body {
     align-items: center; }
   .footer-container .copyright-notice {
     font-size: 1.3em;
-    padding: 0 1%; }
+    padding: 0 1%;
+    user-select: none; }
 
 /*# sourceMappingURL=styles.css.map */
