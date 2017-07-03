@@ -179,6 +179,41 @@ html, body {
   background-size: cover;
   position: relative;
   opacity: 0; }
+  .cover-2 .about-me-title {
+    height: 10%;
+    margin: 2.5% 0 2.5% 0; }
+    .cover-2 .about-me-title h1 {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 4em;
+      user-select: none;
+      font-weight: bold;
+      color: #005ebc; }
+  .cover-2 .about-me-container {
+    width: 100%;
+    display: flex;
+    justify-content: left; }
+    .cover-2 .about-me-container .about-me-content {
+      width: 70%;
+      padding: 0 2.5% 0 5%; }
+      .cover-2 .about-me-container .about-me-content p {
+        text-align: left;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1.5em;
+        user-select: none;
+        color: #757172; }
+    .cover-2 .about-me-container .about-me-image-container {
+      width: 25%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 8% 5% 0 2%; }
+      .cover-2 .about-me-container .about-me-image-container img {
+        height: 100%;
+        width: 100%;
+        float: right; }
 
 .page {
   height: 100%;
