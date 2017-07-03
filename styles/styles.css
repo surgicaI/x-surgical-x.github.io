@@ -175,7 +175,8 @@ html, body {
   margin: 0;
   padding: 0;
   z-index: -1;
-  background: radial-gradient(white, #ffffff);
+  background: url("../images/background-3.jpg") no-repeat center;
+  background-size: cover;
   position: relative; }
 
 .contact {

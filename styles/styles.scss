@@ -78,11 +78,10 @@ html, body {
 }
 .page{
     @include banner;
-    // background: url('../images/background-2.jpg') no-repeat center;
-    // background-size: cover;
-    background: radial-gradient(lighten($background-color,20), $background-color);
+    background: url('../images/background-3.jpg') no-repeat center;
+    background-size: cover;
     position: relative;
-}
+    }
 .contact{
     @include contact-background-animation;
     .contact-title{
