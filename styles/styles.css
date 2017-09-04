@@ -215,6 +215,39 @@ html, body {
         width: 100%;
         float: right; }
 
+.education {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+  background: #ffffff no-repeat center;
+  background-size: cover; }
+  .education .education-title {
+    height: 10%;
+    margin: 2.5% 0 2.5% 0; }
+    .education .education-title h1 {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 4em;
+      user-select: none;
+      font-weight: bold;
+      color: #005ebc; }
+  .education .education-container {
+    margin: 0 10% 0 10%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3em; }
+    .education .education-container hr {
+      border: none;
+      height: 1px;
+      background-color: #005ebc; }
+  .education .courses-divider {
+    width: 30%; }
+  .education .courses {
+    display: flex;
+    justify-content: center; }
+
 .page {
   height: 100%;
   margin: 0;

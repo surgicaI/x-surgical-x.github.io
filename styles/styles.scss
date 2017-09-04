@@ -125,6 +125,42 @@ html, body {
         }
     }
 }
+.education{
+    @include banner;
+    background: #ffffff no-repeat center;
+    background-size: cover;
+    .education-title{
+        height: 10%;
+        margin: 2.5% 0 2.5% 0;
+        h1{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 4em;
+            user-select: none;
+            font-weight: bold;
+            color: $education-color;
+        }
+    }
+    .education-container{
+        margin: 0 10% 0 10%;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1.3em;
+        hr{
+            border: none;
+            height: 1px;
+            background-color: $education-color;
+        }
+    }
+    .courses-divider{
+        width: 30%;
+    }
+    .courses{
+        display: flex;
+        justify-content: center;
+    }
+}
 .page{
     @include banner;
     position: relative;
@@ -245,4 +281,3 @@ html, body {
         user-select: none;
     }
 }
-
