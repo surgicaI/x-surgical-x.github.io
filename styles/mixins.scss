@@ -25,14 +25,14 @@
     position: absolute;
     bottom: 6%;
     left: 48%;
-    border: 3px solid $primary-color;
-    border-radius: 100%;
     height: 60px;
     width: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 200%;
+}
+@mixin vibes-animation {
     animation-name: vibes;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -43,4 +43,10 @@
     animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+}
+@mixin shm-animation {
+    animation-name: shm;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
 }

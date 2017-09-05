@@ -75,6 +75,9 @@ html, body {
 }
 .scroll{
     @include scrolling;
+    @include vibes-animation;
+    border: 3px solid $primary-color;
+    border-radius: 100%;
 }
 .cover-2{
     @include banner;
@@ -160,6 +163,10 @@ html, body {
         display: flex;
         justify-content: center;
     }
+}
+.scroll_shm{
+    @include scrolling;
+    @include shm-animation;
 }
 .page{
     @include banner;
