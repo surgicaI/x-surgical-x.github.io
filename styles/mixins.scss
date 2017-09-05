@@ -8,12 +8,6 @@
     left: $name-left;
     width: $name-width;
 }
-@mixin greeting-animation{
-    animation-name: shake;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-delay:$animations-delay;
-}
 @mixin banner{
     height: 100%;
     margin: 0;
@@ -32,12 +26,6 @@
     align-items: center;
     font-size: 200%;
 }
-@mixin vibes-animation {
-    animation-name: vibes;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-play-state: paused;
-}
 @mixin contact-background-animation{
     animation-name: wobble;
     animation-duration: 6s;
@@ -48,5 +36,5 @@
     animation-name: shm;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    animation-play-state: running;
+    animation-play-state: paused;
 }
