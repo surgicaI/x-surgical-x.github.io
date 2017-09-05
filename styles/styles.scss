@@ -166,7 +166,23 @@ html, body {
 }
 .scroll_shm{
     @include scrolling;
-    @include shm-animation;
+    height: 180px;
+    flex-direction: column;
+    bottom: 0%;
+    .top{
+        transform: translateY(50px);
+        @include shm-animation;
+        animation-delay: 0s;
+    }
+    .middle{
+        transform: translateY(25px);
+        @include shm-animation;
+        animation-delay: .2s;
+    }
+    .bottom{
+        @include shm-animation;
+        animation-delay: .4s;
+    }
 }
 .page{
     @include banner;

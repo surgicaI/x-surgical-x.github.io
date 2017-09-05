@@ -25,9 +25,8 @@
     90%   {box-shadow:0 0 0 0px transparentize($primary-color, 1);}
 }
 @keyframes shm {
-    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-    40% {transform: translateY(-30px);}
-    60% {transform: translateY(-15px);}
+    0%, 100% {opacity: 0;}
+    50% {opacity: 1;}
 }
 @keyframes wobble {
     0% {background: $footer-background-1;}
