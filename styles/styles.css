@@ -48,7 +48,8 @@
     background: linear-gradient(171deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); }
   100% {
     background: linear-gradient(180deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 100%); } }
-html, body {
+body,
+html {
   margin: 0;
   padding: 0;
   height: 100%; }
@@ -59,7 +60,7 @@ html, body {
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  padding: 2.5% 2% 2.5% 2%;
+  padding: 2.5% 2%;
   opacity: 0; }
   .nav-bar a {
     width: 10%;
@@ -143,7 +144,7 @@ html, body {
   opacity: 0; }
   .cover-2 .about-me-title {
     height: 10%;
-    margin: 2.5% 0 2.5% 0; }
+    margin: 2.5% 0; }
     .cover-2 .about-me-title h1 {
       margin: 0;
       padding: 0;
@@ -193,7 +194,7 @@ html, body {
   background-size: cover; }
   .education .education-title {
     height: 10%;
-    margin: 2.5% 0 2.5% 0; }
+    margin: 2.5% 0; }
     .education .education-title h1 {
       margin: 0;
       padding: 0;
@@ -204,18 +205,46 @@ html, body {
       font-weight: bold;
       color: #005ebc; }
   .education .education-container {
-    margin: 0 10% 0 10%;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.3em; }
+    margin: 0 10%; }
+    .education .education-container .ms-content {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 1.3em; }
     .education .education-container hr {
       border: none;
       height: 1px;
       background-color: #005ebc; }
+    .education .education-container .btech-content {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 1.3em; }
   .education .courses-divider {
     width: 30%; }
+  .education .courses-title {
+    font-size: 1.3em; }
   .education .courses {
     display: flex;
-    justify-content: center; }
+    justify-content: space-between; }
+    .education .courses a {
+      text-decoration: none;
+      color: #dddd55;
+      font-weight: bold; }
+    .education .courses a:hover {
+      color: #ffffff;
+      text-decoration: underline;
+      font-weight: bold; }
+
+.rwd-table {
+  margin: 1em 0;
+  background: #34495E;
+  border-radius: 8px; }
+  .rwd-table tr {
+    width: 100%;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff; }
+  .rwd-table td {
+    text-align: left;
+    vertical-align: top;
+    width: 33%;
+    padding: 7px 15px; }
 
 .page {
   height: 100%;
@@ -235,7 +264,7 @@ html, body {
     color: #ffffff; }
     .contact .contact-title h1 {
       margin: 0;
-      padding: 2% 0 0 0;
+      padding: 2% 0 0;
       text-align: center;
       font-family: 'Ubuntu', sans-serif;
       font-size: 2.5em;
