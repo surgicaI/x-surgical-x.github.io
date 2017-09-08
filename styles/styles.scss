@@ -216,12 +216,17 @@ html {
 
 .rwd-table {
     margin: 1em 0;
-    background: $course-background;
-    border-radius: 8px;
+    tr:nth-child(odd){
+        background: $course-background-1;
+    }
+    tr:nth-child(even){
+        background: $course-background-2;
+    }
+    // border-radius: 8px;
     tr {
         width: 100%;
-        border-top: 1px solid #fff;
-        border-bottom: 1px solid #fff;
+        // border-top: 1px solid #fff;
+        // border-bottom: 1px solid #fff;
     }
     td {
         text-align: left;
